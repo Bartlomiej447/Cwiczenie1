@@ -22,9 +22,9 @@ namespace AplikacjaKonsolowa
                 return 0;
 
             double suma = 0;
-            foreach (int liczba in liczby)
+            foreach (int element in liczby)
             {
-                suma += number;
+                suma += element;
             }
 
             return suma / liczby.Length;
