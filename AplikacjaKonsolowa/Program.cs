@@ -24,7 +24,7 @@ namespace AplikacjaKonsolowa
             double suma = 0;
             foreach (int liczba in liczby)
             {
-                suma += liczba;
+                suma += number;
             }
 
             return suma / liczby.Length;
